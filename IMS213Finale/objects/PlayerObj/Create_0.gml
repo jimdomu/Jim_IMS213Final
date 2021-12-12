@@ -8,16 +8,18 @@ moveRight = false;
 walkSpeed = 5;
 
 //Utility variables
-//The booleans allow controller support to be implemented quickly
+//The booleans allow controller support to be implemented later
 use1 = false;
 use2 = false;
 
-//There are 4 available slots to use items
-//2 tools: shovel, watering can. Always first 2 slots respectively
-toolEquipped = 0;
+//Different tools are used based on status of tile
 
-//Toolbelt holds equipments 
-//First slot always have value 1 to indicate shovel
-//Second slot holds watering can. Value indicates number of use left
-//Third and fourth slots hold seed type value. Default 0 means no seed
-toolBelt = [1, 1, 0, 0];
+//Tile snapping system
+//variables to track tile detection
+aheadOffset = 120;
+xPos = 0;
+yPos = 0;
+tileXRect = [0,0];
+tileYRect = [0,0];
+tileWidth = 200;
+tileAhead = noone;

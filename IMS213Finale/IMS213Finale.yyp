@@ -1,12 +1,25 @@
 {
   "resources": [
+    {"id":{"name":"ProjectileSprite","path":"sprites/ProjectileSprite/ProjectileSprite.yy",},"order":6,},
+    {"id":{"name":"RoseTowerSprite","path":"sprites/RoseTowerSprite/RoseTowerSprite.yy",},"order":4,},
+    {"id":{"name":"BushSprite","path":"sprites/BushSprite/BushSprite.yy",},"order":5,},
+    {"id":{"name":"BushObj","path":"objects/BushObj/BushObj.yy",},"order":5,},
+    {"id":{"name":"BerriesSprite","path":"sprites/BerriesSprite/BerriesSprite.yy",},"order":7,},
     {"id":{"name":"BackgroundSprite","path":"sprites/BackgroundSprite/BackgroundSprite.yy",},"order":0,},
+    {"id":{"name":"EnemyObj","path":"objects/EnemyObj/EnemyObj.yy",},"order":3,},
     {"id":{"name":"TileObj","path":"objects/TileObj/TileObj.yy",},"order":1,},
+    {"id":{"name":"RoseBushObj","path":"objects/RoseBushObj/RoseBushObj.yy",},"order":4,},
+    {"id":{"name":"WetSprite","path":"sprites/WetSprite/WetSprite.yy",},"order":8,},
     {"id":{"name":"RoomManagerObj","path":"objects/RoomManagerObj/RoomManagerObj.yy",},"order":0,},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},"order":2,},
+    {"id":{"name":"WetIndicatorObj","path":"objects/WetIndicatorObj/WetIndicatorObj.yy",},"order":8,},
+    {"id":{"name":"ProjectileObj","path":"objects/ProjectileObj/ProjectileObj.yy",},"order":6,},
     {"id":{"name":"PlayerObj","path":"objects/PlayerObj/PlayerObj.yy",},"order":2,},
+    {"id":{"name":"BerryBushObj","path":"objects/BerryBushObj/BerryBushObj.yy",},"order":7,},
     {"id":{"name":"TileSprite","path":"sprites/TileSprite/TileSprite.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"DrawRectOutlined","path":"scripts/DrawRectOutlined/DrawRectOutlined.yy",},"order":0,},
+    {"id":{"name":"EnemySprite","path":"sprites/EnemySprite/EnemySprite.yy",},"order":3,},
+    {"id":{"name":"PlayRoom","path":"rooms/PlayRoom/PlayRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -21,7 +34,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"PlayRoom","path":"rooms/PlayRoom/PlayRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
