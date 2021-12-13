@@ -1,16 +1,19 @@
 //Harvest or interact
 if (tileAhead != noone and tileAhead.plant != noone)
 {
-	if (tileAhead.plantType = 1)
+	if (tileAhead.plant.grown)
 	{
-		tileAhead.plant.grown = false;
-		totalScore += 600;
-		tileAhead.plant.image_index = 0;
-	}
-	else if (tileAhead.plantType = 2)
-	{
-		tileAhead.plant.grown = false;
-		totalScore += 8 * tileAhead.plant.bushHealth;
-		tileAhead.plant.image_index = 0;
+		if (tileAhead.plantType = 1)
+		{
+			tileAhead.plant.grown = false;
+			totalScore += 100;
+			tileAhead.plant.image_index = 0;
+		}
+		else if (tileAhead.plantType = 2)
+		{
+			tileAhead.plant.grown = false;
+			totalScore += 2 * tileAhead.plant.bushHealth;
+			tileAhead.plant.image_index = 0;
+		}
 	}
 }

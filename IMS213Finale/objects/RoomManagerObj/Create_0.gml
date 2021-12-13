@@ -61,9 +61,9 @@ playerHealth = playerMaxHealth;
 //Enemies come in wave of 30.
 //I ran out of time to implement more meaningful dynamic difficulty
 bonusHealth = 0;
-bonusHealthPerWave = 10;
+bonusHealthPerWave = 60;
 resetting = false;
 
 //Score control:
 globalvar totalScore;
-totalScore = 1000;
+totalScore = 1500;

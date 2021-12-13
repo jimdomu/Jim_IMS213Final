@@ -6,3 +6,5 @@ enemyNum = 0; //Track number of active enemies
 generatingEnemy = false;
 
 bonusHealth += bonusHealthPerWave;
+
+resetting = false;
