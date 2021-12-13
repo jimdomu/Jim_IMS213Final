@@ -7,12 +7,14 @@ if (plant = noone)
 		plant = instance_create_layer(x, y, "PlantLayer", RoseBushObj);
 		plant.tileOn = id;
 		plantType = 1;
+		alarm_set(0,0);
 	}
 	else if (image_index = 2)
 	{
 		plant = instance_create_layer(x, y, "PlantLayer", BerryBushObj);
 		plant.tileOn = id;
 		plantType = 2;
+		alarm_set(0,0);
 	}
 }
 

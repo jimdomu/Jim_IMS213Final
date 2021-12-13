@@ -67,3 +67,6 @@ resetting = false;
 //Score control:
 globalvar totalScore;
 totalScore = 1500;
+
+///Play BGM on loop
+audio_play_sound(BGM, 0, true);

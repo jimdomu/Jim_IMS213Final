@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+///PlantingFX
+audio_play_sound(PlantingFX, 0, false);

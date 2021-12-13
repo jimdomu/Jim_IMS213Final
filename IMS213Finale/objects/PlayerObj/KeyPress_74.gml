@@ -15,5 +15,7 @@ if (tileAhead != noone and tileAhead.plant != noone)
 			totalScore += 2 * tileAhead.plant.bushHealth;
 			tileAhead.plant.image_index = 0;
 		}
+		///HarvestFX
+		audio_play_sound(HarvestFX, 0, false);
 	}
 }
