@@ -63,3 +63,7 @@ playerHealth = playerMaxHealth;
 bonusHealth = 0;
 bonusHealthPerWave = 10;
 resetting = false;
+
+//Score control:
+globalvar totalScore;
+totalScore = 1000;

@@ -34,7 +34,7 @@ travelSpeed = maxSpeed;
 currentStep = 0;
 
 //Enemy status
-maxHealth = 100;
+maxHealth = 30;
 currentHealth = maxHealth;
 myNum = 0; //Referring to the index of the enemy within EnemyArr
 inBush = false;
