@@ -60,5 +60,5 @@ else if (tileOn != noone and tileOn.wet and !growing)
 {
 	growing = true;
 	//Grow time = second * 60
-	alarm_set(1, 5 * 60);
+	alarm_set(1, 15 * 60);
 }

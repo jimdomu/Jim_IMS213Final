@@ -11,6 +11,8 @@ var yPos = 100 + tileWidth * v;
 var enemyInstance = instance_create_layer(xPos, yPos, "EnemyLayer", EnemyObj);
 enemyArr[enemyNum] = enemyInstance;
 enemyInstance.myNum = enemyNum;
+enemyInstance.maxHealth += bonusHealth;
+enemyInstance.currentHealth = enemyInstance.maxHealth;
 enemyNum += 1;
 
 generatingEnemy = false;

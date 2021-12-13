@@ -57,3 +57,9 @@ alarm_set(1,1);
 playerMaxHealth = 5;
 globalvar playerHealth;
 playerHealth = playerMaxHealth;
+
+//Enemies come in wave of 30.
+//I ran out of time to implement more meaningful dynamic difficulty
+bonusHealth = 0;
+bonusHealthPerWave = 10;
+resetting = false;
